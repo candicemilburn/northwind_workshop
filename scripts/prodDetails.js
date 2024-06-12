@@ -15,7 +15,7 @@ window.onload = () =>{
         displayCourseDetails(urlParams.get("productid"));
     }else{
     
-        alert("no valid product Id");
+        alert("Sorry, we do not have that item.");
         window.location.href ="./index.html";
     }
 
